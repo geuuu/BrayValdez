@@ -1,3 +1,10 @@
+
+  #map {
+    height: 400px;
+    width: 100%;
+    position: relative;
+   }
+
 #contact{}
   #contact #imagen-pet-friendly{ width: 4em; height: auto;}
 .bg-slider-wrapper .flexslider .slide.slide-1{
