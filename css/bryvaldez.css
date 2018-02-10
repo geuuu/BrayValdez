@@ -6,4 +6,29 @@
    }
 
 #contact{}
+
+  #contact #imagen-pet-friendly{ width: 3em; height: auto;}
+  #contact #imagen-logo-facebook{ width: 3em; height: auto;}
+  #contact #imagen-logo-twitter{ width: 3em; height: auto;}
+  #contact #imagen-logo-instagram{ width: 3em; height: auto;}
+  #contact #imagen-logo-youtube{ width: 6em; height: auto;}
+  #contact #imagen-taza-dinosaurio{ width: 4em; height: auto;}
   #contact #imagen-pet-friendly{ width: 4em; height: auto;}
+.bg-slider-wrapper .flexslider .slide.slide-1{
+  background-image: url(https://trello-attachments.s3.amazonaws.com/5a7f176ae15c424ff128668a/5a7f251bc63be4ac3be82eba/5826e131884fd38e812d2caea3fdc7ad/cafe.jpg);
+  background-size: cover;
+}
+
+.bg-slider-wrapper .flexslider .slide.slide-2{
+  background-image: url(https://trello-attachments.s3.amazonaws.com/5a7f176ae15c424ff128668a/5a7f251bc63be4ac3be82eba/5ee8ae9ce5a6d653a08b250dbde66932/gente.jpg);
+  background-size: cover;
+}
+
+.bg-slider-wrapper .flexslider .slide.slide-3{
+  background-image: url(https://trello-attachments.s3.amazonaws.com/5a7f176ae15c424ff128668a/5a7f251bc63be4ac3be82eba/787e35700090b492a83cdff3ee845394/Screen_Shot_2018-02-10_at_12.14.47.png);
+  background-size: cover;
+}
+
+#contetnt_hero{
+  height: 100%;
+}
