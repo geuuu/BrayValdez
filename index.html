@@ -9,6 +9,13 @@
   <link rel="stylesheet" href="https://themes.3rdwavemedia.com/tempo/bs4/2.1/assets/css/styles.css">
   <link rel="stylesheet" href="https://themes.3rdwavemedia.com/tempo/bs4/2.1/assets/css/styles-9.css">
   <link rel="stylesheet" href="css/bryvaldez.css">
+  <style>
+    #map {
+      height: 400px;
+      width: 100%;
+      position: relative;
+     }
+  </style>
 </head>
 <body class="home-page">
   <div class="wraper">
@@ -38,15 +45,64 @@
       <!-- AQUI VA EL CONTENT HERO -->
 
     </section>
-    <section id="map" class="map section">
+    <section id="mapa" class="mapa section">
       <!-- AQUI VA EL MAPA -->
+<div class="container">
+<div class="row">
+  <div class="col">
 
+    <h3>Localidades BryValdez</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        //  https://www.google.com.mx/maps/@23.2934628,-111.6500425,5z
+        var uluru = {lat: 23.2934628, lng: -111.6500425};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+    </script>
+
+    </div>
+  </div>
+</div>
+
+</div>
     </section>
     <section id="products" class="products section">
       <!--  AQUI VAN LOS PRODUCTOS -->
     </section>
     <section id="contact" class="contact section">
       <!-- AQUI VA EL CONTACTO -->
+    <div class="container">
+      <div class="row">
+        <div class="col text-left">
+          <p> Copy Right "Logo BRY VALDEZ" </p>
+        </div>
+        <div class="col text-center">
+          <p>
+            <p> <img id="logo_facebook.png" src="imagenes/logo_facebook.png" alt="LOGO FACEBOOK"> </p>
+            <p> <img id="logo_twitter.png" src="imagenes/logo_twitter.png" alt="LOGO TWITTER"> </p>
+
+          Face "liga Face"
+          Twitter "Liga Twitter"
+          Youtube "Liga Youtube"
+        Instagram "liga Instagram"</p>
+        </div>
+        <div class="col text-right"></div>
+        <p> <img id="imagen-pet-friendly" src="imagenes/pet-friendly.png" alt="PET FRIENDLY"> </p>
+
+      </div>
+    </div>
+
     </section>
   </div>
 
